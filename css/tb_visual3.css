@@ -62,7 +62,15 @@ figure figcaption{
 
 /* Article Styles */
 
-
+article {
+   background: url(../png/tb_back6.png) bottom right / 15% no-repeat;
+   border: 8px bottom right rgb(147,166,68);
+   border-radius: 80px;
+   box-shadow:rgba(184,154,112,0.7) 0px 0px -10px 25px;
+}
 
 /* Footer Styles */
 
+footer {
+   background: linear-gradient(350deg, rgb(180, 148, 104), rgb(40, 33, 23) 60%);
+}
